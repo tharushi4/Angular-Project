@@ -1,0 +1,78 @@
+ .body-style{
+    background-color: rgb(107, 164, 189);
+}
+.container{
+    align-items: center;
+}
+.na-bar-dark {
+   background-color: rgb(6, 39, 69); 
+   height: 25px; 
+}
+.nav-bar-text{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+.number-text{
+    float: right;
+    color: white;
+}
+.detail-text{
+    font-style: italic;
+}
+.icon-image{
+    padding-left: 60px;
+    height: 50px;
+    width: 50px;
+}
+.icon-details{
+    flex-direction: row;
+    justify-content: space-around;
+}
+.navbar {
+    float: right;
+    overflow: hidden;
+    font-family: Arial;
+    border-radius: 5px;
+}
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: rgb(4, 4, 58);
+    text-align: center;
+    padding: 15px 100px;
+    text-decoration: none;
+} 
+.navbar a:hover {
+    background-color: #ddd;
+    border-radius: 5px;
+}
+.detail-text{
+      font-size: 50px;
+      color: #ffffff;
+}
+.login-button{
+    height: 40px;
+    width: 150px;
+    background-color: rgb(228, 234, 234);
+    border-color: rgb(0, 0, 0);
+    border-radius: 7px;
+    font-size: large;
+    margin-left: 30px;
+}
+.signin-button{
+    height: 40px;
+    width: 150px;
+    border-radius: 7px;
+    background-color: rgb(0, 66, 94);
+    font-size: large;
+    color: #ffffff;
+    margin-left: 100px;
+}
+.button-view{
+    padding-left: 20px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.footer{
+    background-color: rgb(4, 4, 58);
+}
